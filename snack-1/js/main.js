@@ -14,7 +14,7 @@ let number = [];
 let sum = 0;
 while ( sum < 50){
     //chiedo il numero
-    let numberUser = parseInt(prompt('Inserisci un numero'));
+    let numberUser = parseInt(prompt('Inserisci un numero tra 0 e 50'));
     //sommo i numeri
     sum += numberUser;
     //aggiungo il numero dell'utente all'array
